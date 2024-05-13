@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "APP_ENV=production next build",
+    "build": "next build",
     "start": "next start -p 3010",
     "dev:dev": "APP_ENV=development next dev -p 3010",
     "dev:prod": "APP_ENV=production next dev -p 3010",
